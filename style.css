@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 650px;
+    background-color: black;
+}
+
+.click{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  height: 80px;
+  width: 200px;
+  border-radius: 20px;
+  background-color: #9a0000;
+  border: none;
+  cursor: pointer;
+  font-family: "Dancing Script", serif;
+  font-size: 30px;
+}
+
+.ooo {
+    background-color: rgb(0, 0, 0);
+}
