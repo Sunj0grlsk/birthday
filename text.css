@@ -10,3 +10,151 @@ body{
   background-color: black;
   
 }
+
+.zagg{
+  color: #800000;
+  font-family: "Dancing Script", serif;
+  font-size: 70px;
+}
+
+.zag{
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.wrap{
+
+}
+
+.txt{
+  color: white;
+  font-family: "Cinzel", serif;
+  text-align: justify;
+  font-size: 25px;
+}
+
+.textii{
+  width: 740px;
+}
+
+.bg_heart {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.heart {
+	position: absolute;
+	top: -50%;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-m-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.heart:before {
+	position: absolute;
+	top: -50%;
+	left: 0;
+	display: block;
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: inherit;
+	border-radius: 100%;
+}
+
+.heart:after {
+	position: absolute;
+	top: 0;
+	right: -50%;
+	display: block;
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: inherit;
+	border-radius: 100%;
+}
+
+@-webkit-keyframes love {
+	0%{
+		top:110%;
+	}
+}
+
+@-moz-keyframes love {
+	0%{
+		top:110%;
+	}
+}
+
+@-ms-keyframes love {
+	0%{
+		top:110%;
+	}
+}
+
+@keyframes love {
+	0%{
+		top:110%;
+	}
+}
+
+.bg_heart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.click{
+
+  height: 50px;
+  width: 200px;
+  border-radius: 20px;
+  background-color: #9a0000;
+  border: none;
+  cursor: pointer;
+  font-family: "Dancing Script", serif;
+  font-size: 30px;
+}
+
+.butt{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media(min-width:320px) and (max-width:1440px) {
+		.zagg{
+			color: #800000;
+			font-family: "Dancing Script", serif;
+			font-size: 20px;
+		  }
+		  .txt{
+			color: white;
+			font-family: "Cinzel", serif;
+			text-align: justify;
+			font-size: 15px;
+		  }
+		  
+		  .textii{
+			width: 245px;
+			margin-top: 10px;
+		  }
+		  .click{
+	
+			height: 50px;
+			width: 100px;
+			border-radius: 20px;
+			background-color: #9a0000;
+			border: none;
+			cursor: pointer;
+			font-family: "Dancing Script", serif;
+			font-size: 20px;
+			margin-top: 20px;
+		  }
+		}
