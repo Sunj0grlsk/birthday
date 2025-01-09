@@ -46,6 +46,7 @@ body{
         top: 50%;
         height: 50px;
         width: 100px;
+        text-decoration: none;
         border-radius: 20px;
         background-color: #9a0000;
         border: none;

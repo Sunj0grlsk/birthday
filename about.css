@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    
+}
+
+.love{
+    color: #800000;
+    font-family: "Cinzel", serif;
+    font-size: 70px;
+}
+
+#counter {
+    text-align: center;
+}
+
+.number {
+    font-size: 70px;
+    color: #ffffff;
+    font-family: "Cinzel", serif;
+}
+
+.na{
+    margin-top: 40px;
+}
+.click{
+
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: #9a0000;
+    border: none;
+    cursor: pointer;
+    font-family: "Dancing Script", serif;
+    font-size: 30px;
+  }
+
+  .con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+  }
+
+  @media(min-width:320px) and (max-width:1440px) {
+    .love{
+        color: #800000;
+        font-family: "Cinzel", serif;
+        font-size: 30px;
+    }
+  }
